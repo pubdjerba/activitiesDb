@@ -9,7 +9,6 @@ Icon
 .Spotlight-V100
 .Trashes
 ._*
-package-lock.json
 
 ############################
 # Linux
@@ -113,3 +112,4 @@ exports
 dist
 build
 .strapi-updater.json
+package-lock.json
