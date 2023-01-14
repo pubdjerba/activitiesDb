@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inclusions",
+  "info": {
+    "singularName": "inclusion",
+    "pluralName": "inclusions",
+    "displayName": "inclusions"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::activity.activity",
+      "inversedBy": "inclusions"
+    }
+  }
+}
